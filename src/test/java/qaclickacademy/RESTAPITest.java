@@ -8,6 +8,7 @@ public class RESTAPITest {
 	public void postJira()
 	{
 		System.out.println("postJira");
+		System.out.println("Raised the defect");
 	}
 	
 	@Test
