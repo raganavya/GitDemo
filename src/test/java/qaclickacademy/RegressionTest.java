@@ -16,4 +16,16 @@ public class RegressionTest {
 	{
 		System.out.println("Execute the tests with high importance");	
 	}
+	
+	@Test
+	public void mediumPriorityTest()
+	{
+		System.out.println("Execute the sanity tests");	
+	}
+	
+	@Test
+	public void lowPriorityTest()
+	{
+		System.out.println("Execute the remaining tests");	
+	}
 }
